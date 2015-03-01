@@ -2,11 +2,8 @@
 title: Brandon To
 email: brandon_to@hotmail.com
 description: "Personal website of Brandon To"
-baseurl: "/"
+baseurl: /
 url: "http://brandonto.github.io"
-#twitter_username: SBootstrap
-github_username:  brandonto
-#facebook_username:  Brandon To
 
 # Build settings
 markdown: kramdown
