@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brandon To</title>
+    <description>Personal website of Brandon To</description>
+    <link>http://localhost:3000//</link>
+    <atom:link href="http://localhost:3000//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>2015-03-01 16:22:30 -0500</pubDate>
+    <lastBuildDate>2015-03-01 16:22:30 -0500</lastBuildDate>
+    <generator>Jekyll v</generator>
+    
+  </channel>
+</rss>
