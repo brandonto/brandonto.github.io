@@ -3,10 +3,10 @@
   <channel>
     <title>Brandon To</title>
     <description>Personal website of Brandon To</description>
-    <link>http://localhost:3000//</link>
-    <atom:link href="http://localhost:3000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>2015-03-01 16:22:30 -0500</pubDate>
-    <lastBuildDate>2015-03-01 16:22:30 -0500</lastBuildDate>
+    <link>http://brandonto.github.io//</link>
+    <atom:link href="http://brandonto.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>2015-03-01 17:59:59 -0500</pubDate>
+    <lastBuildDate>2015-03-01 17:59:59 -0500</lastBuildDate>
     <generator>Jekyll v</generator>
     
   </channel>
