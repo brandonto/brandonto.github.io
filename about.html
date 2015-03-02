@@ -5,5 +5,17 @@ root: ".."
 description: "A little bit about me..."
 ---
 
-<p>Under construction</p>
+{% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ post.root }}{% endif %}{%endcapture%}
 
+<div class="row">
+	<div class="col-lg-9">
+		<p>Hey, I'm Brandon. I'm a third year student at Carleton University studying Computer Systems Engineering. I <b>LOVE</b> programming. On my free time, I like to tinker with Computer Science to get away from all the low level hardware and electronics that I do in school.</p>
+	</div>
+	<div class="col-lg-3">
+		<img src="{{ root }}/img/about-pic.png" alt="me">
+	</div>
+</div>
+
+<p>You can follow me on <a href="https://github.com/brandonto">GitHub</a> to get an idea of what I'm currently up to.</p>
+
+<p>I'm always looking for interesting work. Want to hire me? Check out my <a href="{{ root }}//resume/">resume</a> and send me an email so we can connect.</p>
