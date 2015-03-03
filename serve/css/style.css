@@ -385,3 +385,26 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+.project-listing {
+  padding: 0 0 20px;
+}
+.project-image {
+  padding: 2px 2px;
+  max-width:100%;
+  max-height: auto;
+}
+.project-title {
+  font-weight: bold;
+}
+.project-title a{
+  color: #3f8fd2
+}
+.project-timeframe {
+  font-style: italic;
+}
+.project-footer {
+  text-align: right;
+}
+.text-center {
+  text-align: center !important;
+}
