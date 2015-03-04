@@ -9,4 +9,4 @@ at it's current state:
 
 http://brandonto.github.io
 
-Powered by Jenkyll and Startbootstrap.
+Powered by Jekyll and Startbootstrap.

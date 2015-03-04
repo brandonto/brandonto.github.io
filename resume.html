@@ -5,5 +5,7 @@ root: ".."
 description: "For business inquires, contact me"
 ---
 
-<p>Under construction</p>
+{% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ post.root }}{% endif %}{%endcapture%}
+
+<h3>Under construction</h3>
 

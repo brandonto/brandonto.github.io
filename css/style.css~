@@ -4,6 +4,7 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+/* Stripped down version of the Clean Blog template from startbootstrap.com*/
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -35,7 +36,7 @@ a:focus {
 }
 a img:hover,
 a img:focus {
-  cursor: zoom-in;
+  /*cursor: zoom-in;*/
 }
 blockquote {
   color: #808080;
@@ -383,4 +384,27 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+.project-listing {
+  padding: 0 0 20px;
+}
+.project-image {
+  padding: 2px 2px;
+  width: 100%;
+  height: auto;
+}
+.project-title {
+  font-weight: bold;
+}
+.project-title a{
+  color: #3f8fd2;
+}
+.project-timeframe {
+  font-style: italic;
+}
+.project-footer {
+  text-align: right;
+}
+.text-center {
+  text-align: center !important;
 }

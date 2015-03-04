@@ -36,7 +36,7 @@ a:focus {
 }
 a img:hover,
 a img:focus {
-  cursor: zoom-in;
+  /*cursor: zoom-in;*/
 }
 blockquote {
   color: #808080;
@@ -390,14 +390,14 @@ body {
 }
 .project-image {
   padding: 2px 2px;
-  max-width:100%;
-  max-height: auto;
+  width: 100%;
+  height: auto;
 }
 .project-title {
   font-weight: bold;
 }
 .project-title a{
-  color: #3f8fd2
+  color: #3f8fd2;
 }
 .project-timeframe {
   font-style: italic;
