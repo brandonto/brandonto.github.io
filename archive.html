@@ -1,0 +1,12 @@
+---
+layout: page
+title: "Archive"
+root: ".."
+description: ""
+---
+
+{% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ post.root }}{% endif %}{%endcapture%}
+
+{% for post in site.posts %}
+ 	* {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
